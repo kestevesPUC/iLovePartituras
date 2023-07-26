@@ -1,0 +1,113 @@
+.m-portlet .m-portlet__head {
+    border-bottom: 1px solid #ebedf2;
+}
+.m-portlet__head {
+    margin-top: -15px;
+}
+.portlet_block-counter-icon i {
+    font-size: 3rem !important;
+    color: white !important;
+}
+
+@media (min-width: 1023px) and (max-width: 1024px) {
+    .portlet_block-counter-icon i {
+        font-size: 1.5rem !important;
+        color: white !important;
+    }
+
+    .systemArId div {
+        margin-right: -10px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .systemArId div {
+        margin-right: -10px !important;
+    }
+
+    .systemArId div {
+        margin-right: -10px !important;
+    }
+}
+@media (min-width: 423px) and (max-width: 425px) {
+    .buttons-requests {
+        padding-left: 20px !important;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .m-portlet .m-portlet__head {
+        display: grid;
+        border: none;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        display: grid;
+    }
+
+    .m-portlet.m-portlet--mobile {
+        margin-top: 5px;
+    }
+
+    .buttons-requests {
+        margin-left: 65px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .systemArId div {
+        margin-top: 15px !important;
+    }
+    /* Code for fix after hiding counters on the order screen */
+    #dataTableBuilder_wrapper > div:nth-child(1) > div:nth-child(1){
+        margin-top: 110px;
+    }
+    /* End code */
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .m-portlet .m-portlet__head {
+        display: grid;
+        border: none;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        display: grid;
+    }
+
+    .systemArId div {
+        margin-top: 15px !important;
+    }
+
+    .buttons-requests {
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 320px) {
+    .portlet_block-counter-icon i {
+        font-size: 3rem !important;
+        color: white !important;
+    }
+
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        display: grid;
+        text-align: center;
+    }
+
+    .systemArId div {
+        margin-top: 15px !important;
+    }
+
+    .m-portlet.m-portlet--mobile {
+        padding-top: 15px !important;
+    }
+
+    .buttons-requests {
+        margin-left: 35px;
+    }
+}

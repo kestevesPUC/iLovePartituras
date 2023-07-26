@@ -1,0 +1,20 @@
+.m-pricing-table-2 .m-pricing-table-2__content .m-pricing-table-2__container .m-pricing-table-2__items .m-pricing-table-2__item .m-pricing-table-2__label {
+    margin: .64rem 0 0 -2.65rem;
+    font-size: 25px;
+    position: absolute;
+}
+
+@media (min-width: 1023px) and (max-width: 1024px) {
+    .m-widget4__title.text-white {
+        font-size: 1rem !important;
+    }
+
+    .row {
+        margin-right: -12px !important;
+    }
+    .dashboard-counter-finished {
+        margin-bottom: 1rem !important;
+        margin-left: -9px !important;
+        padding-right: 0px;
+    }
+}

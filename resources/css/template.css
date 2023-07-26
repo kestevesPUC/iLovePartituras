@@ -1,0 +1,126 @@
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 100%;
+    }
+}
+
+.card .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    min-height: 60px;
+    padding: 0 2.25rem;
+    background-color: transparent;
+    border-bottom: 1px solid #EFF2F5;
+}
+
+.timeline-label .timeline-label {
+    width: 105px;
+    flex-shrink: 0;
+    position: relative;
+    color: #3F4254;
+}
+
+.timeline-label:before {
+    content: "";
+    position: absolute;
+    left: 106px;
+    width: 3px;
+    top: 0;
+    bottom: 0;
+    background-color: #EFF2F5;
+}
+
+.input-group.input-group-solid .form-control+.input-group-text {
+    border-left-color: #e4e6ef;
+    border-right-color: #e4e6ef;
+}
+
+.btn.btn-icon.btn-sm, .btn-group-sm > .btn.btn-icon {
+    height: calc(1.2em + 0.9rem + 1px);
+    width: calc(1.2em + 0.9rem + 1px);
+}
+
+li.ms-optgroup-label {
+    background: #a7a7a7;
+    color: #FFFFFF!important;
+    padding: 5px!important;
+}
+
+.blockui .blockui-overlay {
+    z-index: 1000010;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    cursor: wait;
+}
+
+.input-group > .select2-container--bootstrap5 {
+    width: auto !important;
+    flex: 1 1 auto;
+}
+
+.input-group > .select2-container--bootstrap5 .select2-selection--single {
+    height: 100%;
+    line-height: inherit;
+    padding: 0.5rem 1rem;
+}
+
+.profileImg {
+    max-width: 100%;
+}
+.cropper-view-box,
+.cropper-face {
+    border-radius: 50%;
+}
+
+.bg-linkedin {
+    background-color: #0077b5!important;
+}
+
+.has-danger .input-group-text,
+.has-danger .form-control, .has-danger .select2-container {
+    border: 1px solid #dc3545;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.table .client {
+    width: 15%;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.table .category {
+    width: 5%;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table-hover > tbody > tr:hover > td.bg-danger {
+    background: var(--bs-red)!important;
+    --bs-table-accent-bg: var(--bs-red)!important;
+}
+
+.table-hover > tbody > tr:hover > td.bg-warning {
+    background: var(--bs-yellow)!important;
+    --bs-table-accent-bg: var(--bs-yellow)!important;
+}
+
+.btn i {
+    margin-top: -4px;
+}
+
+table.dataTable.table-striped > tbody > tr.odd:hover, table.dataTable.table-striped > tbody > tr.even:hover {
+    --bs-table-accent-bg: #dfdfdf;
+}

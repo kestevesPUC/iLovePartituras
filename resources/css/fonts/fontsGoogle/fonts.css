@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Open+Sans_400_normal.eot); /* http://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0f.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Open+Sans_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0f.eot */
+    url(fonts/fontsGoogle/Open+Sans_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0b.woff2 */
+    url(fonts/fontsGoogle/Open+Sans_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0d.woff */
+    url(fonts/fontsGoogle/Open+Sans_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0ef8pkAg.ttf */
+    url(fonts/fontsGoogle/Open+Sans_400_normal.svg#Open+Sans_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=mem8YaGs126MiZpBA-UFVZ0c&skey=62c1cbfccc78b4b2&v=v16#OpenSans */
+}
+@font-face {
+    font-family: 'Charm';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Charm_400_normal.eot); /* http://fonts.gstatic.com/s/charm/v3/7cHmv4oii5K0MdYoK-o.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Charm_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/charm/v3/7cHmv4oii5K0MdYoK-o.eot */
+    url(fonts/fontsGoogle/Charm_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/charm/v3/7cHmv4oii5K0MdYoK-4.woff2 */
+    url(fonts/fontsGoogle/Charm_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/charm/v3/7cHmv4oii5K0MdYoK-g.woff */
+    url(fonts/fontsGoogle/Charm_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/charm/v3/7cHmv4oii5K0MdYoK-sW4nIp.ttf */
+    url(fonts/fontsGoogle/Charm_400_normal.svg#Charm_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=7cHmv4oii5K0MdYoK-k&skey=203fb70c7d6d0c6c&v=v3#Charm */
+}
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Dancing+Script_400_normal.eot); /* http://fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuU.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Dancing+Script_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuU.eot */
+    url(fonts/fontsGoogle/Dancing+Script_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2 */
+    url(fonts/fontsGoogle/Dancing+Script_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuc.woff */
+    url(fonts/fontsGoogle/Dancing+Script_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuQHiC4W.ttf */
+    url(fonts/fontsGoogle/Dancing+Script_400_normal.svg#Dancing+Script_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=If2RXTr6YS-zF4S-kcSWSVi_szLgiuY&skey=c89f400061e5d0a8&v=v10#DancingScript */
+}
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Caveat_400_normal.eot); /* http://fonts.gstatic.com/s/caveat/v5/Wnz6HAc5bAfYB2Q7ZjYc.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Caveat_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/caveat/v5/Wnz6HAc5bAfYB2Q7ZjYc.eot */
+    url(fonts/fontsGoogle/Caveat_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/caveat/v5/Wnz6HAc5bAfYB2Q7ZjYY.woff2 */
+    url(fonts/fontsGoogle/Caveat_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/caveat/v5/Wnz6HAc5bAfYB2Q7ZjYe.woff */
+    url(fonts/fontsGoogle/Caveat_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/caveat/v5/Wnz6HAc5bAfYB2Q7ZjYdiAzcPA.ttf */
+    url(fonts/fontsGoogle/Caveat_400_normal.svg#Caveat_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=Wnz6HAc5bAfYB2Q7ZjYf&skey=7833cd5b856b60c9&v=v5#Caveat */
+}
+@font-face {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Great+Vibes_400_normal.eot); /* http://fonts.gstatic.com/s/greatvibes/v6/RWmMoKWR9v4ksMfaWd_JN9XFiaA.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Great+Vibes_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/greatvibes/v6/RWmMoKWR9v4ksMfaWd_JN9XFiaA.eot */
+    url(fonts/fontsGoogle/Great+Vibes_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/greatvibes/v6/RWmMoKWR9v4ksMfaWd_JN9XFiaQ.woff2 */
+    url(fonts/fontsGoogle/Great+Vibes_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/greatvibes/v6/RWmMoKWR9v4ksMfaWd_JN9XFiaI.woff */
+    url(fonts/fontsGoogle/Great+Vibes_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/greatvibes/v6/RWmMoKWR9v4ksMfaWd_JN9XFiaEoDmlr.ttf */
+    url(fonts/fontsGoogle/Great+Vibes_400_normal.svg#Great+Vibes_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=RWmMoKWR9v4ksMfaWd_JN9XFiaM&skey=1a66edef5eadc723&v=v6#GreatVibes */
+}
+@font-face {
+    font-family: 'Sacramento';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Sacramento_400_normal.eot); /* http://fonts.gstatic.com/s/sacramento/v6/buEzpo6gcdjy0EiZMBUG4C0f-Q.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Sacramento_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/sacramento/v6/buEzpo6gcdjy0EiZMBUG4C0f-Q.eot */
+    url(fonts/fontsGoogle/Sacramento_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/sacramento/v6/buEzpo6gcdjy0EiZMBUG4C0f_Q.woff2 */
+    url(fonts/fontsGoogle/Sacramento_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/sacramento/v6/buEzpo6gcdjy0EiZMBUG4C0f-w.woff */
+    url(fonts/fontsGoogle/Sacramento_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/sacramento/v6/buEzpo6gcdjy0EiZMBUG4C0f-P5Iai0.ttf */
+    url(fonts/fontsGoogle/Sacramento_400_normal.svg#Sacramento_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=buEzpo6gcdjy0EiZMBUG4C0f-g&skey=81ec871a4d9062d2&v=v6#Sacramento */
+}
+@font-face {
+    font-family: 'Marck Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Marck+Script_400_normal.eot); /* http://fonts.gstatic.com/s/marckscript/v9/nwpTtK2oNgBA3Or78gapdwuyyCg7.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Marck+Script_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/marckscript/v9/nwpTtK2oNgBA3Or78gapdwuyyCg7.eot */
+    url(fonts/fontsGoogle/Marck+Script_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/marckscript/v9/nwpTtK2oNgBA3Or78gapdwuyyCg_.woff2 */
+    url(fonts/fontsGoogle/Marck+Script_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/marckscript/v9/nwpTtK2oNgBA3Or78gapdwuyyCg5.woff */
+    url(fonts/fontsGoogle/Marck+Script_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/marckscript/v9/nwpTtK2oNgBA3Or78gapdwuyyCg6SsDV7A.ttf */
+    url(fonts/fontsGoogle/Marck+Script_400_normal.svg#Marck+Script_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=nwpTtK2oNgBA3Or78gapdwuyyCg4&skey=5f8a9188ebf1b8e9&v=v9#MarckScript */
+}
+@font-face {
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Homemade+Apple_400_normal.eot); /* http://fonts.gstatic.com/s/homemadeapple/v9/Qw3EZQFXECDrI2q789EKQZJob0x6XHw.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Homemade+Apple_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/homemadeapple/v9/Qw3EZQFXECDrI2q789EKQZJob0x6XHw.eot */
+    url(fonts/fontsGoogle/Homemade+Apple_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/homemadeapple/v9/Qw3EZQFXECDrI2q789EKQZJob0x6XHg.woff2 */
+    url(fonts/fontsGoogle/Homemade+Apple_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/homemadeapple/v9/Qw3EZQFXECDrI2q789EKQZJob0x6XH4.woff */
+    url(fonts/fontsGoogle/Homemade+Apple_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/homemadeapple/v9/Qw3EZQFXECDrI2q789EKQZJob0x6XH0OiJM6.ttf */
+    url(fonts/fontsGoogle/Homemade+Apple_400_normal.svg#Homemade+Apple_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=Qw3EZQFXECDrI2q789EKQZJob0x6XH8&skey=d63826866de4a1b6&v=v9#HomemadeApple */
+}
+@font-face {
+    font-family: 'Nothing You Could Do';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Nothing+You+Could+Do_400_normal.eot); /* http://fonts.gstatic.com/s/nothingyoucoulddo/v8/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb3OOnV8.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Nothing+You+Could+Do_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/nothingyoucoulddo/v8/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb3OOnV8.eot */
+    url(fonts/fontsGoogle/Nothing+You+Could+Do_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/nothingyoucoulddo/v8/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb3OOnVs.woff2 */
+    url(fonts/fontsGoogle/Nothing+You+Could+Do_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/nothingyoucoulddo/v8/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb3OOnV0.woff */
+    url(fonts/fontsGoogle/Nothing+You+Could+Do_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/nothingyoucoulddo/v8/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb3OOnV4H2pmp.ttf */
+    url(fonts/fontsGoogle/Nothing+You+Could+Do_400_normal.svg#Nothing+You+Could+Do_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb3OOnVw&skey=772542671f40e9f1&v=v8#NothingYouCouldDo */
+}
+@font-face {
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Reenie+Beanie_400_normal.eot); /* http://fonts.gstatic.com/s/reeniebeanie/v9/z7NSdR76eDkaJKZJFkkjuvWxXPq1rw.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Reenie+Beanie_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/reeniebeanie/v9/z7NSdR76eDkaJKZJFkkjuvWxXPq1rw.eot */
+    url(fonts/fontsGoogle/Reenie+Beanie_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/reeniebeanie/v9/z7NSdR76eDkaJKZJFkkjuvWxXPq1qw.woff2 */
+    url(fonts/fontsGoogle/Reenie+Beanie_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/reeniebeanie/v9/z7NSdR76eDkaJKZJFkkjuvWxXPq1rQ.woff */
+    url(fonts/fontsGoogle/Reenie+Beanie_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/reeniebeanie/v9/z7NSdR76eDkaJKZJFkkjuvWxXPq1rqGjb_0.ttf */
+    url(fonts/fontsGoogle/Reenie+Beanie_400_normal.svg#Reenie+Beanie_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=z7NSdR76eDkaJKZJFkkjuvWxXPq1rA&skey=f3e3fc232dd85227&v=v9#ReenieBeanie */
+}
+@font-face {
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Shadows+Into+Light_400_normal.eot); /* http://fonts.gstatic.com/s/shadowsintolight/v8/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD9.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Shadows+Into+Light_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/shadowsintolight/v8/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD9.eot */
+    url(fonts/fontsGoogle/Shadows+Into+Light_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/shadowsintolight/v8/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD5.woff2 */
+    url(fonts/fontsGoogle/Shadows+Into+Light_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/shadowsintolight/v8/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD_.woff */
+    url(fonts/fontsGoogle/Shadows+Into+Light_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/shadowsintolight/v8/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD85TecYQ.ttf */
+    url(fonts/fontsGoogle/Shadows+Into+Light_400_normal.svg#Shadows+Into+Light_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD-&skey=d59d8f871dbcf35e&v=v8#ShadowsIntoLight */
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Poppins_400_normal.eot); /* http://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfedg.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Poppins_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfedg.eot */
+    url(fonts/fontsGoogle/Poppins_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfecg.woff2 */
+    url(fonts/fontsGoogle/Poppins_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfedA.woff */
+    url(fonts/fontsGoogle/Poppins_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfed3FHGPc.ttf */
+    url(fonts/fontsGoogle/Poppins_400_normal.svg#Poppins_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=pxiEyp8kv8JHgFVrJJfedQ&skey=87759fb096548f6d&v=v6#Poppins */
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/fontsGoogle/Roboto_400_normal.eot); /* http://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxO.eot */
+    src: local('☺'),
+    url(fonts/fontsGoogle/Roboto_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxO.eot */
+    url(fonts/fontsGoogle/Roboto_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxK.woff2 */
+    url(fonts/fontsGoogle/Roboto_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxM.woff */
+    url(fonts/fontsGoogle/Roboto_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxPKTU1Kg.ttf */
+    url(fonts/fontsGoogle/Roboto_400_normal.svg#Roboto_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=KFOmCnqEu92Fr1Mu4mxN&skey=a0a0114a1dcab3ac&v=v19#Roboto */
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local('☺'),
+    url(fonts/fontsGoogle/Poppins_300_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2 */
+    url(fonts/fontsGoogle/Poppins_300_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLDz8Z1xlEw.woff */
+    url(fonts/fontsGoogle/Poppins_300_normal.ttf) format('truetype'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local('☺'),
+    url(fonts/fontsGoogle/Poppins_500_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2 */
+    url(fonts/fontsGoogle/Poppins_500_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z1xlEw.woff */
+    url(fonts/fontsGoogle/Poppins_500_normal.ttf) format('truetype'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('☺'),
+    url(fonts/fontsGoogle/Poppins_600_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2 */
+    url(fonts/fontsGoogle/Poppins_600_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLEj6Z1xlEw.woff */
+    url(fonts/fontsGoogle/Poppins_600_normal.ttf) format('truetype'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local('☺'),
+    url(fonts/fontsGoogle/Poppins_700_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2 */
+    url(fonts/fontsGoogle/Poppins_700_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLCz7Z1xlEw.woff */
+    url(fonts/fontsGoogle/Poppins_700_normal.ttf) format('truetype'); /* http://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLCz7Z1xlEN2JQEk.ttf */
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('☺'),
+    url(fonts/fontsGoogle/Roboto_300_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fBBc4.woff2 */
+    url(fonts/fontsGoogle/Roboto_300_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fBBc-.woff */
+    url(fonts/fontsGoogle/Roboto_300_normal.ttf) format('truetype'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('☺'),
+    url(fonts/fontsGoogle/Roboto_500_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fBBc4.woff2 */
+    url(fonts/fontsGoogle/Roboto_500_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fBBc-.woff */
+    url(fonts/fontsGoogle/Roboto_500_normal.ttf) format('truetype'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('☺'),
+    url(fonts/fontsGoogle/Roboto_700_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfBBc4.woff2 */
+    url(fonts/fontsGoogle/Roboto_700_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfBBc-.woff */
+    url(fonts/fontsGoogle/Roboto_700_normal.ttf) format('truetype'); /* {{svg-gf-url}} */
+}
+

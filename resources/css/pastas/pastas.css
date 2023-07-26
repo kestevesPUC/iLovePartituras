@@ -1,0 +1,88 @@
+.table td, .table th {
+    vertical-align: middle;
+}
+.table td, .table th {
+    vertical-align: middle;
+}
+@media (min-width: 375px) and (max-width: 425px) {
+    .m-portlet__head {
+        margin-top: -15px;
+    }
+
+    .m-portlet__body {
+        margin-top: 60px;
+    }
+
+    div.m-portlet__head-tools.buttons-folders > ul > li {
+        margin-top: 150px;
+        margin-left: -80px !important;
+        margin-right: 0 !important;
+    }
+
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 374px) and (max-width: 375px) {
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        padding-right: 5px;
+    }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .m-portlet__body {
+        margin-top: 60px;
+    }
+
+    div.m-portlet__head-tools.buttons-folders > ul > li {
+        margin-top: 150px;
+        margin-left: -80px !important;
+    }
+
+    .m-portlet__head-text {
+        font-size: 1.1rem !important;
+    }
+
+    .m-portlet__head-text i {
+        padding-right: 0.2rem;
+    }
+    .m-portlet__head-caption {
+        margin-left: -10px;
+    }
+
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        margin-right: 22px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .m-portlet__head {
+        margin-top: -15px;
+        display: -webkit-box !important;
+    }
+
+    .m-portlet__body {
+        margin-top: 100px;
+    }
+
+    div.m-portlet__head-tools.buttons-folders > ul > li {
+        margin-top: 150px;
+        margin-right: 50px !important;
+    }
+
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        display: grid !important;
+        padding-right: 90px;
+    }
+
+    .m-portlet__head-tools {
+        margin-top: 15px !important;
+    }
+    .m-portlet.m-portlet--mobile {
+        padding-top: 15px !important;
+    }
+
+    .buttons-folders {
+        margin-left: 35px;
+    }
+}

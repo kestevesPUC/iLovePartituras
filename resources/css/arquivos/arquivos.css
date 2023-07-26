@@ -1,0 +1,76 @@
+@media (min-width: 375px) and (max-width: 425px) {
+    .portlet_block-counter-title {
+        font-size: 1.2rem !important;
+    }
+
+    .m-portlet .m-portlet__head {
+        display: grid;
+        border: none;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        display: grid;
+    }
+
+    .m-portlet.m-portlet--mobile {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .m-portlet.m-portlet--mobile {
+        margin-top: 0px !important;
+    }
+    /* Code for fix after hiding counters on the order screen */
+    #dataTableBuilder_wrapper > div:nth-child(1) > div:nth-child(1){
+        margin-top: 110px;
+    }
+    .dataTables_length {
+        padding-top: 50px;
+        z-index: auto;
+        display: contents;
+    }
+    /* End code */
+
+    .buttons-files {
+        margin-left: 85px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .m-portlet .m-portlet__head {
+        display: grid;
+        border: none;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        display: grid;
+    }
+
+    .m-portlet.m-portlet--mobile {
+        margin-top: 0px !important;
+    }
+
+    .buttons-files {
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 320px) {
+    .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item {
+        display: grid;
+        text-align: center;
+    }
+
+    .m-portlet.m-portlet--mobile {
+        padding-top: 15px !important;
+    }
+
+    .buttons-files {
+        margin-left: 35px;
+    }
+}

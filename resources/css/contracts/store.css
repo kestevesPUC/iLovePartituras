@@ -1,0 +1,13 @@
+.alert.alert-custom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding: 1.5rem 2rem;
+}
+
+.alert .alert-icon {
+    padding-right: 2rem;
+}

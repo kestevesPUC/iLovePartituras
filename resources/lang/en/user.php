@@ -1,0 +1,90 @@
+<?php
+
+return  [
+    'init' => [
+        'user' => 'User',
+        'search' => 'Search',
+        'new_user' => 'New User',
+        'profile' => 'Profile',
+        'login_as' => 'Login as',
+    ],
+
+    'balance' => [
+        'my_balance' => 'My Balance',
+        'buy_credits' => 'Buy Credits',
+        'current_balance' => 'Current balance',
+    ],
+
+    'search' => [
+        'cancel' => 'Cancelar',
+        'email' => 'E-mail',
+        'name' => 'Name',
+        'cpf_cnpj' => 'CPF/CNPJ',
+        'clear_filters' => 'Clear Filters',
+        'search' => 'Search',
+    ],
+
+    'register' => [
+        'client_registration' => 'Client Registration',
+        'user_information' => 'User Information',
+        'signature' => 'Signature',
+        'confirmation' => 'Confirmation',
+        'name' => 'Name',
+        'document' => 'Document',
+        'info_documento' => 'Enter the document number CPF/CNPJ',
+        'address' => 'Address',
+        'table' => 'Table',
+        'billing_table' => 'Billing table',
+        'add_table' => 'Add table',
+    ],
+
+    'table' => [
+        'billing_tables' => 'Billing Tables',
+        'add' => 'Add',
+        'search' => 'Search',
+        'table_name' => 'Table Name',
+        'table_name_info' => 'Enter the full table name',
+        'table_type' => 'Type Table',
+        'prepaid_table' => 'Prepaid Table',
+        'post_paid_table' => 'Post paid table',
+        'signature_table' => 'Signature table',
+        'table_type_info' => 'Select payment type',
+        'save' => 'Save',
+        'cancel' => 'Cancel',
+        'plan' => 'Plan',
+        'plan_name' => 'Name',
+        'status' => 'Status',
+        'active' => 'Active',
+        'disable' => 'Disable',
+        'status_info' => 'Select table status',
+        'quantity' => 'Quantity',
+        'delete' => 'Delete',
+        'table_sash' => 'Table sash',
+        'start' => 'Start',
+        'end' => 'End',
+        'value_sash' => 'Value Sash',
+        'date' => 'Date',
+        'user' => 'User',
+        'credit' => 'Credit',
+        'hystoric' => 'Hystoric',
+    ],
+
+    'form' => [
+        'personal_data' => 'Personal data',
+        'legal_person_type' => 'Legal Person Type',
+        'natural_person' => 'Natural Person',
+        'juridical_person' => 'Juridical Person',
+        'consignor' => 'Consignor',
+        'dispatch_date' => 'Dispatch date',
+        'fantasy_name' => 'Fantasy Name',
+        'state_registration' => 'State Registration',
+        'municipal_inscription' => 'Municipal Inscription',
+        'tax_substitute' => 'Tax substitute',
+        'plan_type' => 'Plan Type',
+        'prepaid' => 'Prepaid',
+        'postpaid' => 'Postpaid',
+        'next_billing_date' => 'Next billing date',
+    ],
+
+    'warning' => 'This is your account statement!<br><small>It does not include documents imported from other users folders!</small>'
+];

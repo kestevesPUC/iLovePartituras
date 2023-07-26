@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    .m-wizard.m-wizard--4 .m-wizard__form {
+        padding: 0 0rem 1rem 2rem;
+    }
+}
+
+.m-wizard.m-wizard--4 .m-wizard__head {
+    padding: 0rem 1rem;
+}
+
+.dropzone .dz-message {
+    margin-top: 6em;
+}
+
+#tblBuscarParticipantes.table td {
+    padding: .20rem;
+}
+
+#tblAssinadores.table td {
+    vertical-align: middle;
+}
+
+.megaDisabled {
+    background: #f7f7f7;
+}

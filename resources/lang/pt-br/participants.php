@@ -1,0 +1,35 @@
+<?php
+
+return [
+    'modal' => [
+        'add_participant' => 'Adicionar Participante',
+        'edit' => 'Editar Participante',
+        'cpf_cnpj' => 'CPF/CNPJ',
+        'birth' => 'Data de Nascimento',
+        'message_optional' => '(Opcional, já preenche o nome automaticamente)',
+        'name' => 'Nome',
+        'email' => 'E-mail',
+        'duration_of' => 'Vigência de',
+        'duration_until' => 'Vigência até',
+        'status' => 'Status',
+        'active' => 'Ativo',
+        'inactive' => 'Inativo',
+        'permissions' => 'Permissões',
+        'administrator' => 'Administrador',
+        'can_add_documents' => 'Pode adicionar documentos',
+        'can_sign_documents' => 'Pode assinar documentos',
+        'can_view_documents' => 'Pode visualizar todos os documentos',
+        'close' => 'Fechar',
+        'save' => 'Salvar',
+        'add_new' => 'Adicionar Novo',
+        'search' => 'Buscar Cadastrado',
+        'add' => 'Adicionar',
+        'close' => 'Fechar',
+        'sms' => 'Enviar SMS com código de autenticação',
+        'phone' => 'Celular',
+        'sign_types' => 'Tipo de assinatura',
+        'sign_eletronically' => 'Assinar Eletronicamente',
+        'sign_certificate' => 'Assinar com certificado',
+        'sign_authorization' => 'Autorizar assinatura'
+    ],
+];
