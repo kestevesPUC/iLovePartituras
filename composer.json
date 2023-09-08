@@ -7,8 +7,6 @@
     "require": {
         "php": ">=8.0.0",
         "guzzlehttp/guzzle": "^7.2",
-        "kryptonpay/kryptonpay-php-sdk": "2.0.29",
-        "kryptonpay/nfse-bh-sdk-new": "^0.0.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
