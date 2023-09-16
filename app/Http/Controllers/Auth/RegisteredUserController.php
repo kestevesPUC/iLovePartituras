@@ -60,8 +60,8 @@ class RegisteredUserController extends Controller
         return redirect(RouteServiceProvider::HOME);
     }
 
-    public function register ()
+    public function register()
     {
-        return $this->loginRepo->onPost($this->request->all(), 'register');
+        return $this->loginRepo->register($this->request->all());
     }
 }

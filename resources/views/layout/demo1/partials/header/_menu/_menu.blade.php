@@ -1,21 +1,14 @@
 @php
     $menu = bootstrap()->getHorizontalMenu();
-    $menu->items[1] = [
-        'title' => 'MarketResearch',
-        'path' => route('order.index'),
-        'classes' => ["item" => "me-lg-1"]
-    ];
+//    $menu->items[0] = [
+//        'title' => 'Home',
+//        'path' => route('home'),
+//        'classes' => ["item" => "me-lg-1"]
+//    ];
 
-    $menu->items[2] = [
-        'title' => 'Charts',
-        'path' => route('charts.index'),
-        'classes' => ["item" => "me-lg-1"]
-    ];
-    $menu->items[3] = [
-        'title' => '',
-        'path' => '',
-        'classes' => ''
-    ];
+    $menu->items[1] = null;
+    $menu->items[2] = null;
+    $menu->items[3] = null;
     \App\Core\Adapters\Menu::filterMenuPermissions($menu->items);
 @endphp
 

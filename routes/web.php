@@ -59,6 +59,11 @@ Route::prefix('documentation')->group(function () {
     Route::resource('layout-builder', LayoutBuilderController::class)->only(['store']);
 });
 
+
+Route::group(['prefix' => 'public'], function () {
+    Route::get('/home', [\App\Http\Controllers\Home\HomeController::class, 'index'])->name('index');
+});
+
 Route::middleware('auth')->group(function () {
     Route::group(['prefix' => 'profile'], function () {
         Route::get('/edit/{userId}', [UserController::class, 'profile'])->name('profile.edit');
@@ -75,20 +80,8 @@ Route::middleware('auth')->group(function () {
         Route::get('/getCnaes', [AddressController::class, 'getCnaes'])->name('address.getCnaes');
     });
 
-    Route::group(['prefix' => 'marketresearch'], function () {
-        Route::get('/', [OrderController::class, 'index'])->name('order.index');
-        Route::get('/loadGrid', [OrderController::class, 'loadGrid'])->name('order.load.grid');
-        Route::get('/download', [OrderController::class, 'download'])->name('order.download');
-        Route::post('/makeOrder', [OrderController::class, 'makeOrder'])->name('order.makeOrder');
-        Route::get('/detail/{id}', [OrderController::class, 'orderDetail'])->name('order.detail');
-        Route::post('/lowOrder', [OrderController::class, 'manualLowOrder'])->name('order.manual.order');
-        Route::post('/download/nfse/{numberNfse}/{cnpjProvider}/{action}/{emailTaker?}', [OrderController::class, 'actionNfse'])->name('order.action.nfse');
-        Route::get('/download/nfse/{numberNfse}/{cnpjProvider}/{action}/{emailTaker?}', [OrderController::class, 'actionNfse'])->name('order.action.nfse');
-        Route::get('/download/file/{id}', [OrderController::class, 'downloadFile'])->name('order.download.file');
-
-        Route::get('/charts', [ChartController::class, 'index'])->name('charts.index');
-        Route::get('/charts', [ChartController::class, 'queryLegalNature'])->name('charts.legal_nature');
-
+    Route::group(['prefix' => 'home'], function () {
+        Route::get('/', [OrderController::class, 'index'])->name('index');
     });
 
     //Charts

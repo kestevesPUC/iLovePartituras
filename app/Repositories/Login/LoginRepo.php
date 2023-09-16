@@ -35,7 +35,7 @@ class LoginRepo
         }
     }
 
-    private function login (array $data) : array
+    private function login(array $data) : array
     {
         $infUser = $this->getUserLogin($data);
         if($infUser){
@@ -74,6 +74,7 @@ class LoginRepo
 
     private function createSession (object $user, object $infoUser) : bool
     {
+
         $user->cpf_cnpj = $infoUser->cpf ?? $infoUser->cnpj ?? null;
         $user->email = strtolower($user->email);
         $user->name = $infoUser->name;
@@ -89,7 +90,7 @@ class LoginRepo
         return true;
     }
 
-    private function register (array $data) : array
+    public function register (array $data) : array
     {
         $data['register'] = 1;
         $infUser = $this->getUserLogin($data);

@@ -3,11 +3,11 @@
 	<!--begin::Logo image-->
 	<a href="/" class="navbar-brand">
         @if (isDarkSidebar())
-		    <img alt="KryptonTech" src="https://kryptontech.com.br/assets/img/site/logo-color.png" class="h-50px app-sidebar-logo-default logo-main" />
+		    <img alt="I Love Partituras" src="{{ url('img/logo.png') }}" class="h-50px app-sidebar-logo-default logo-main" />
         @else
-            <img alt="KryptonTech" src="https://kryptontech.com.br/assets/img/site/logo-color.png" class="h-50px app-sidebar-logo-default logo-main-scrolled" />
+            <img alt="I Love Partituras" src="{{ url('img/logo.png') }}" class="h-50px app-sidebar-logo-default logo-main-scrolled" />
         @endif
-        <img alt="KryptonTech" src="https://kryptontech.com.br/assets/img/site/logo-color.png" class="h-25px app-sidebar-logo-minimize" />
+        <img alt="I Love Partituras" src="{{ url('img/logo.png') }}" class="h-25px app-sidebar-logo-minimize" />
     </a>
 	<!--end::Logo image-->
 	<!--begin::Sidebar toggle-->

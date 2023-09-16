@@ -4,8 +4,6 @@
     <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css"/>
 @endsection
 
-
-
 @section('content')
     @include('layout.demo1.partials._toolbar')
     @include('layout.demo1.partials._header')
